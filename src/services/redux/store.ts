@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { animalSlice, preloadedState, setToLocalStorage } from './animalSlice';
+import { animalSlice, preloadedState } from './animalSlice';
+import useSetToLocalStorage from './hooks/useSetToLocalStorage';
 
 export const store = configureStore({
   reducer: animalSlice.reducer,
@@ -8,7 +9,7 @@ export const store = configureStore({
 
 store.subscribe(() => {
   const state = store.getState();
-  setToLocalStorage(state);
+  useSetToLocalStorage(state);
 });
 
 export type RootState = ReturnType<typeof store.getState>;

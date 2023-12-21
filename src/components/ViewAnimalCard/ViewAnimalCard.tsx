@@ -1,6 +1,5 @@
-import { Dispatch } from 'react';
+
 import Style from './ViewAnimalCard.module.css';
-import { UnknownAction } from '@reduxjs/toolkit';
 import Button from '../Button/Button';
 import useHandleDelete from '../../pages/Animals/hooks/useHandleDelete';
 import { useDispatch } from 'react-redux';
@@ -9,7 +8,6 @@ type ViewAnimalCardProps = {
   id: string;
   name: string;
   photoURL: string;
-  dispatch: Dispatch<UnknownAction>;
   handleEdit: (id: string) => void;
 };
 

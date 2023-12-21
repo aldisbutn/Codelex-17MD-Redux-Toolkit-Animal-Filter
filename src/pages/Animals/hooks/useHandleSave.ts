@@ -16,7 +16,6 @@ type useHandleSaveProps = {
   setNewPhotoURL: React.Dispatch<React.SetStateAction<string>>;
 };
 
-
 const useHandleSave = ({
   dispatch,
   editAnimal,

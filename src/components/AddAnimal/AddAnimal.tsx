@@ -1,15 +1,15 @@
 import { FormEvent, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-
-import Button from '../Button/Button';
-import Input from '../Input/Input';
 import { useDispatch } from 'react-redux';
 import { AnimalSchema } from '../../services/zod/schemas';
 import { addAnimal } from '../../services/redux/animalSlice';
 import { toast } from 'react-toastify';
 import { z } from 'zod';
 
-import Style from './AddAnimal.module.css'
+import Button from '../Button/Button';
+import Input from '../Input/Input';
+
+import Style from './AddAnimal.module.css';
 
 const AddAnimal = () => {
   const [name, setName] = useState('');

@@ -1,6 +1,6 @@
 import Button from '../Button/Button';
 import Input from '../Input/Input';
-import Style from './EditAnimalCard.module.css'
+import Style from './EditAnimalCard.module.css';
 
 type EditAnimalCardProps = {
   newName: string;
@@ -11,7 +11,6 @@ type EditAnimalCardProps = {
   handleSave: (id: string) => void;
   id: string;
 };
-
 const EditAnimalCard = ({
   newName,
   setNewName,

@@ -15,15 +15,15 @@ import Sort from '../../components/Sort/Sort';
 
 const Animals = () => {
   const dispatch = useDispatch();
-  const animalList = useSelector((state: RootState) => state.sortedAnimals);
+  const animalList = useSelector((state: RootState) => state.animals);
 
   useEffect(() => {
     setAnimals();
   });
 
-
   const [editMode, setEditMode] = useState(false);
   const [editID, setEditID] = useState('');
+
   const [newName, setNewName] = useState('');
   const [newPhotoURL, setNewPhotoURL] = useState('');
 
@@ -57,7 +57,6 @@ const Animals = () => {
                     id={animal.id}
                     name={animal.name}
                     photoURL={animal.photoURL}
-                    dispatch={dispatch}
                     handleEdit={handleEdit}
                   />
                 )}
