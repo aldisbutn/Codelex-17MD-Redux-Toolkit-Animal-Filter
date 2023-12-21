@@ -1,0 +1,78 @@
+.button {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: #151536;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 6px;
+  max-width: 100px;
+  width: 100%;
+}
+
+.addButton {
+    background-color: #2abd31;
+    border: 1px solid #2abd31;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #ffffff;
+      color: #2abd31;
+    }
+}
+
+.deleteButton {
+    background-color: #bd2f2a;
+    border: 1px solid #bd2f2a;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #ffffff;
+      color: #bd2f2a;
+    }
+}
+
+.editButton {
+    background-color: #f4b00f;
+    border: 1px solid #f4b00f;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #ffffff;
+      color: #f4b00f;
+    }
+}
+
+.cancelButton {
+    background-color: #acacac;
+    border: 1px solid #acacac;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #ffffff;
+      color: #acacac;
+    }
+}
+
+.saveButton {
+    background-color: #376cff;
+    border: 1px solid #376cff;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #ffffff;
+      color: #376cff;
+    }
+}
+
+.sortButton {
+    background-color: #f837ff;
+    border: 1px solid #f837ff;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #ffffff;
+      color: #f837ff;
+    }
+}

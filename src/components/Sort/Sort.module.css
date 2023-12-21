@@ -1,0 +1,9 @@
+.sortWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}

@@ -1,0 +1,16 @@
+.addAnimalWrapper {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.formWrapper {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

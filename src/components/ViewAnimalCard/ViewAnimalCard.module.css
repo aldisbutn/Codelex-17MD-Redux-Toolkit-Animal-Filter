@@ -1,0 +1,14 @@
+
+
+.buttonWrapper {
+    display: flex;
+    gap: 5px;
+}
+
+.cardHeading {
+    margin: 0
+}
+
+.animalPhoto {
+    border-radius: 5px;
+}

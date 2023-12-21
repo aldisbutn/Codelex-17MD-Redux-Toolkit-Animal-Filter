@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.animalsWrapper {
+    display: flex;
+    gap: 25px;
+    max-width: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.animalWrapper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 500px;
+    gap: 10px;
+}
